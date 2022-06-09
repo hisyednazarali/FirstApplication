@@ -1,0 +1,94 @@
+#quickSearch{
+    /* height: 600px;  */
+   width: 80%;
+   margin-left:10%;
+   margin-top: 2%;
+   display: inline-block;  
+   /* for display block height property is not required */
+   /* border: 2px groove rgb(173, 87, 7); */
+}
+
+
+
+
+#quickHeading{
+   display:block;
+   font-size:30px;
+   color:#d77440;
+   font-weight:bold;
+   margin-left:2%;
+  
+
+}
+#quickHeading:hover{
+   font: size 40px;
+   color: #3939cf;
+}
+#quickSubHeading{
+   display:block;
+   font-size:20px;
+   color:gray;
+   line-height:2;
+   margin-left:2%;
+   /* font-weight:bold; */
+}
+.tileContainer{
+   width:30%;
+   height:180px;
+   /* border:2px groove rgb(160, 224, 144); */
+   box-shadow: 10px 10px 10px 10px rgb(179, 223, 175);
+   float:left;
+   margin-left: 2%;
+   margin-top:2%;
+   animation: dance 10s;
+   
+}
+@keyframes dance {
+   0% {transform: rotate(-5deg)}
+   25%{transform: rotate(0deg)}
+   50%{transform: rotate(5deg)}
+   75%{transform: rotate(0deg)}
+   100%{transform: rotate(5deg)}
+}
+.tileContainer:hover{
+   transform: scale(1.1);
+   /* transform :skewX(20deg); */
+}
+
+.tileComponent1{ 
+   width: 50%;
+   float:left;
+   height: 180px;
+
+
+}
+.tileComponent1>img{
+   width:100%;
+   height:180px;
+}
+.tileComponent2{
+   width: 45%;
+   margin-left:5%;
+   margin-top: 14%;
+   float:left;
+}
+.componentHeading>a{
+   color:#d77440;
+   font-size: 25px;
+
+
+}
+.componentSubHeading{
+   
+   color:gray;
+   font-size: 20px;
+   
+
+}
+
+/*Footer*/footer{
+   height: 120px;
+   width: 100%;
+   margin-top: 2%;
+   background-color:rgb(216, 216, 119)
+}
