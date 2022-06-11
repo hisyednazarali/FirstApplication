@@ -1,7 +1,7 @@
 #search{
     height:400px;
     width:100%;
-    background-image: url('./assets/images/foodWallpaper.png');
+    background-image:url("https://ibb.co/VQ2sSPV"); 
     background-repeat: no-repeat;
     /* background-size: cover */
     background-size: 100% 400px;
@@ -28,7 +28,7 @@
 
 #heading{
     font-size: 60px;
-    color:white;
+    color:black;
     margin-left: 30%;
     margin-top:12%;
     position: absolute;
